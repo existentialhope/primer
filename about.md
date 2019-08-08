@@ -4,4 +4,4 @@ title: About
 permalink: "/about/"
 
 ---
-Welcome to the XHope Primer. 
+Here we can talk about what we're trying to do here. 
