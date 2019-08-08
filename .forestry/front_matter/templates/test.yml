@@ -2,9 +2,14 @@
 label: Test
 hide_body: false
 fields:
-- name: name
+- name: title
   type: text
   config:
     required: false
-  label: Label
-  description: description
+  label: Title
+  description: Enter the title of the blog post
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: image
