@@ -6,22 +6,39 @@ publish_mode: editorial_workflow
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
 collections:
   - name: "post" # Used in routes, e.g., /admin/collections/blog
+    identifier_field: name
     label: "Post" # Used in the UI
     folder: "_posts/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    editor:
+      preview: false
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
-
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: "chapter" # Used in routes, e.g., /admin/collections/blog
+    identifier_field: name
     label: "Chapter" # Used in the UI
-    folder: "chapters" # The path to the folder where the documents are stored
+    folder: "chapters/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{chapterId}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    editor:
+      preview: false
     fields: # The fields for each document, usually in front matter
       - {label: "Chapter ID", name: "chapterId", widget: "string"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: 'pages'
+    label: 'Pages'
+    editor:
+      preview: false
+    files:
+      - label: 'About Page'
+        name: 'about'
+        file: 'about.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+          - { label: 'Layout', name: 'title', widget: 'hidden', default: 'about' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
