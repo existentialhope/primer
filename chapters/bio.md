@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: "/02-bio/"
+title: Bio
 
 ---
 

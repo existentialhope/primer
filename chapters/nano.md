@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: "/01-nano/"
+title: Nano
 
 ---
 

@@ -27,6 +27,7 @@ collections:
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter
+      - {label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
       - {label: "Chapter ID", name: "chapterId", widget: "string"}
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
       - {label: "Body", name: "body", widget: "markdown"}
@@ -39,9 +40,9 @@ collections:
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "chapterId", widget: "string"}
-      - {label: 'Author', name: 'string',  widget: "string"}
-      - {label: "Description", name: "body", widget: "markdown"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: 'Author', name: 'author',  widget: "string"}
+      - {label: "Description", name: "description", widget: "markdown"}
   - name: 'pages'
     label: 'Pages'
     editor:
@@ -52,5 +53,5 @@ collections:
         file: 'about.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-          - { label: 'Layout', name: 'title', widget: 'hidden', default: 'about' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
