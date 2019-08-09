@@ -1,4 +1,5 @@
 ---
+title: Bio
 permalink: /01-bio/
 layout: page
 ---
