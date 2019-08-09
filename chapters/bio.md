@@ -1,6 +1,6 @@
 ---
 title: Bio
-permalink: /01-bio/
+permalink: 02-bio
 layout: page
 ---
 
