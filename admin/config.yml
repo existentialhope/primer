@@ -28,8 +28,20 @@ collections:
       preview: false
     fields: # The fields for each document, usually in front matter
       - {label: "Chapter ID", name: "chapterId", widget: "string"}
-      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "book" # Used in routes, e.g., /admin/collections/blog
+    identifier_field: book
+    label: "Book" # Used in the UI
+    folder: "_books/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{title}}-{{author}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    editor:
+      preview: false
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "chapterId", widget: "string"}
+      - {label: 'Author', name: 'string',  widget: "string"}
+      - {label: "Description", name: "body", widget: "markdown"}
   - name: 'pages'
     label: 'Pages'
     editor:
