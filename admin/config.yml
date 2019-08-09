@@ -48,10 +48,16 @@ collections:
     editor:
       preview: false
     files:
+      - label: 'Index Page'
+        name: 'index'
+        file: 'index.md'
+        fields:
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
       - label: 'About Page'
         name: 'about'
         file: 'about.md'
         fields:
           - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
-          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
