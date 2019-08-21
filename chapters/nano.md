@@ -16,8 +16,8 @@ layout: page
 
 
 
-*   **Read: **[Engines of Creation](http://xaonon.dyndns.org/misc/engines_of_creation.pdf) - Eric Drexler
-*   **Listen: **[BestHope](https://player.fm/series/future-strategist/besthope) - Future Strategist
+*   **Read:** [Engines of Creation](http://xaonon.dyndns.org/misc/engines_of_creation.pdf) - Eric Drexler
+*   **Listen:** [BestHope](https://player.fm/series/future-strategist/besthope) - Future Strategist
 *   **Do:** [Foresight Institute](https://foresight.org/)
 
 
