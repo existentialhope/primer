@@ -1,6 +1,5 @@
 ---
 layout: page
-
 ---
 ![](/uploads/Screen Shot 2019-08-08 at 1.28.50 AM.png)
 
@@ -14,5 +13,5 @@ This project is in its infancy, but we have big plans:
 
 In other words, our mission is to generate the common knowledge to catalyze directed coordination towards beautiful futures.
 
-1. [Nano](/01-nano/)
+1. [Climate](/climate/)
 2. [Bio](/02-bio/)
