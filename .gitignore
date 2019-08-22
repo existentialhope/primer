@@ -2,3 +2,4 @@ _site
 .sass-cache
 .jekyll-metadata
 .DS_Store
+.ruby-version #netlify will respect this and it can cause problems if it's not a version that works for them
