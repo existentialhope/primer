@@ -31,6 +31,7 @@ collections:
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Slug", name: "slug", widget: "string"}
   - name: "book" # Used in routes, e.g., /admin/collections/blog
     identifier_field: book
     label: "Book" # Used in the UI
