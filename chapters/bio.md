@@ -2,10 +2,11 @@
 title: ' Energy, Environment, Climate'
 permalink: climate
 layout: page
+name: climate
 ---
 _“Climate change allows us, for the first time in human history, to not think like individuals, communities, or nations, but to think like one planet.” Stewart Brand_
 
-## Overview
+## Overview!
 
 - - -
 
