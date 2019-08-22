@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 ---
 ![](/uploads/Screen Shot 2019-08-08 at 1.28.50 AM.png)
 
@@ -12,6 +12,3 @@ This project is in its infancy, but we have big plans:
 * Publishing a living document which summarizes models published elsewhere in order to outline possible futures while detailing the aspects of our nature, culture and society which must be improved if we hope to reach them.
 
 In other words, our mission is to generate the common knowledge to catalyze directed coordination towards beautiful futures.
-
-1. [Climate](/climate/)
-2. [Bio](/02-bio/)

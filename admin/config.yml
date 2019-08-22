@@ -21,7 +21,7 @@ collections:
   - name: "chapter" # Used in routes, e.g., /admin/collections/blog
     identifier_field: name
     label: "Chapter" # Used in the UI
-    folder: "chapters/" # The path to the folder where the documents are stored
+    folder: "_chapters/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{permalink}}" # Filename template, e.g., YYYY-MM-DD-title.md
     editor:
@@ -31,6 +31,7 @@ collections:
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Chapter Number", name: "chapter-number", widget: "number"}
   - name: "book" # Used in routes, e.g., /admin/collections/blog
     identifier_field: book
     label: "Book" # Used in the UI
